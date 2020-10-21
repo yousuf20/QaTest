@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16017" started-at="2020-10-21T19:27:37 NZDT" finished-at="2020-10-21T19:27:53 NZDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16017" started-at="2020-10-21T19:27:37 NZDT" finished-at="2020-10-21T19:27:53 NZDT">
+      <class name="Qrious.QaTest.QaTest">
+        <test-method status="PASS" signature="preRequsites()[pri:0, instance:Qrious.QaTest.QaTest@9660f4e]" name="preRequsites" is-config="true" duration-ms="5537" started-at="2020-10-21T19:27:37 NZDT" finished-at="2020-10-21T19:27:43 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequsites -->
+        <test-method status="PASS" signature="QaTest()[pri:0, instance:Qrious.QaTest.QaTest@9660f4e]" name="QaTest" duration-ms="10216" started-at="2020-10-21T19:27:43 NZDT" finished-at="2020-10-21T19:27:53 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QaTest -->
+        <test-method status="PASS" signature="finalStep()[pri:0, instance:Qrious.QaTest.QaTest@9660f4e]" name="finalStep" is-config="true" duration-ms="176" started-at="2020-10-21T19:27:53 NZDT" finished-at="2020-10-21T19:27:53 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalStep -->
+      </class> <!-- Qrious.QaTest.QaTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
