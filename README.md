@@ -1,8 +1,8 @@
 STEPS TO RUN THE TEST CASE
 
-- Download the ZIP file by going to my repository using the url https://github.com/yousuf20/QaTest.git
+- Download the ZIP file by going to my repository using the url https://github.com/yousuf20/QaTest.git OR import directly from Eclipse -> Projects from GIT option
 
-- Extract the zip file and import the project 'QaTest-main' into the Eclipse-> Package Explorer-> RightClick and select the import option.
+- Extract the zip file and import the project 'QaTest-master' into the Eclipse-> Package Explorer-> RightClick and select the import option.
 
 - After Importing the Project-> You will see below directoy structure
 
