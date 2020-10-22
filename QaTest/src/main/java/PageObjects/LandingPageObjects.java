@@ -12,11 +12,9 @@ public class LandingPageObjects {
 	
 public WebDriver driver;
 	
-	
-
 	public LandingPageObjects(WebDriver driver){
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
+	this.driver = driver;
+	PageFactory.initElements(driver, this);
 	
 	}
 	
@@ -49,7 +47,13 @@ public WebDriver driver;
 	public WebElement WelcomeText() {
 		return WelcomeText;
 	}
-	//driver.findElement(By.xpath("//span[contains(text(),'Edit Profile')]")).click();
+		
+	@FindBy(xpath="//img[@src='images/Ubiquity-marketing.png']")
+	private WebElement MarketingImg;
+	
+	public WebElement MarketingImg() {
+		return MarketingImg;
+	}
 	
 	@FindBy(xpath="//span[contains(text(),'Edit Profile')]")
 	private WebElement Editprofilebtn;

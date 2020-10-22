@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 	private WebDriver driver;
 
 	public ProfilePageObjects(WebDriver driver){
-		this.driver = driver;
+	    this.driver = driver;
 		PageFactory.initElements(driver, this);
 	
 	}
@@ -55,4 +55,13 @@ import org.openqa.selenium.support.PageFactory;
 	public WebElement SuccessMsg() {
 	return SuccessMsg;
 	}
+	
+	@FindBy(linkText="Logout")
+	private WebElement LogOut;
+
+	public WebElement LogOut() {
+	return LogOut;
+	}
+	
+	
 }

@@ -13,7 +13,6 @@ package resources;
 		
 		public WebDriver initializeDriver() throws IOException {
 
-			
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\main\\java\\resources\\chromedriver.exe");
 			WebDriver driver= new ChromeDriver();
 		    prop=new Properties();
@@ -23,11 +22,6 @@ package resources;
 		    String Url=prop.getProperty("URL");
 			return driver;
 		    
-		
-		
-		
-		
-		
 	}
 	}
 
