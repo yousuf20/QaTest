@@ -13,7 +13,7 @@ STEPS TO RUN THE TEST CASE
     -- pom.xml file  (Consist of all maven dependencies required for project to run)
     -- testng.xml file 
 
-Expand src/test/java -> Expand package 'Qrious.QaTest' and run the Test Case "QaTest.Java" (You can see the Test Case code in the right) -> Right Click and Select RUN AS-> Test NG Test or Run As Java application 
+Expand src/test/java -> Expand package 'Qrious.QaTest' and run the Test Case "QaTest.Java" (You can see the Test Case code in the right) -> Right Click and Select RUN AS-> Test NG Test or Run As Java application or RUN As Maven project-> cmd prompt-> go to test path-> and type command mvn test
 
 OR
 
