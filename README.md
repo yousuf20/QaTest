@@ -21,6 +21,7 @@ Select testng.xml file-> right click and Run As -> TestNG Suite
 
 Test Case will start its execution in the chrome browser and once completed it displays 'QaTest PASSED message' in the console along with the Validation messages which gets printed in the console output.
 
+Note: Currently this test is code to run only on chrome browser as its just for the purpose of Technical Test.
 
 
 
